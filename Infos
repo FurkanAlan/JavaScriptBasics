@@ -1,2 +1,27 @@
   "module": "commonjs",
   "target": "es6",
+
+
+
+    "type": "module",
+
+
+    "module": "commonjs",
+    "target": "esm"
+
+
+    export function subTwo(number1, number2) {
+        return number1 - number2;
+    }
+
+
+    console.log(basicCalculation)
+
+
+
+// import * as basicCalculation from "./functionExporter.js"
+
+import {numCounter} from "./functionExporter";
+
+
+ npm init -y
