@@ -1,27 +1,27 @@
+  //bunlarin hepsini denemdim
   "module": "commonjs",
   "target": "es6",
-
-
-
-    "type": "module",
-
-
     "module": "commonjs",
     "target": "esm"
 
 
+    "type": "module",  //bu ifade import ve export u kullanirken gerekli
+
+
+
+
+//bu ifadeyi export edilen sinifa yerlestir
     export function subTwo(number1, number2) {
         return number1 - number2;
     }
 
+// import * as basicCalculation from "./functionExporter.js" //import etme yontemi 1. yol
 
-    console.log(basicCalculation)
+import {numCounter} from "./functionExporter.js";   //import etme yontemi 2. yol
 
-
-
-// import * as basicCalculation from "./functionExporter.js"
-
-import {numCounter} from "./functionExporter";
+   //bu ifadeyi import edilen yerde kullan
+   console.log(basicCalculation.subTwo)
 
 
- npm init -y
+
+ npm init -y   //bu komut yeni bir package.json icin kullaniliyor
