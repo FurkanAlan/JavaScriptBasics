@@ -61,6 +61,9 @@ export -import
 es6 module activated
 burada bize bu uyariyi verecek
 (node:26150) ExperimentalWarning: The ESM module loader is experimental.
+
+
+
 {
   "name": "es6ModuleLoader",
   "version": "1.0.0",
@@ -77,3 +80,23 @@ burada bize bu uyariyi verecek
 
 ve mutlaka .js uzantisi eklenmeli
 import {dob, getName} from "./es6ModuleExporter.js";
+
+
+
+eger es6 li haliyle html dosysinda kullanmak isityorsak
+<script type="module" src="source/to/file.js"></script>
+seklinde yapmamiz gerekli
+
+eger commonjs kullaniliyorsa
+<script type="module" src="app.js"></script>
+# If it is not a module i.e. simple script
+# you can use the nomodule tag
+<script nomodule src="classic-app-bundle.js"></script>
+
+seklinde yapilabilir
+Daha fazla detay icin bu videolar guzel
+
+ES6 Tutorial - #10 Modules (import & export)
+How to Export and Require Modules in NodeJS
+JavaScript ES6 Arrow Functions Tutorial
+
