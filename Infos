@@ -25,3 +25,5 @@ import {numCounter} from "./functionExporter.js";   //import etme yontemi 2. yol
 
 
  npm init -y   //bu komut yeni bir package.json icin kullaniliyor
+
+
