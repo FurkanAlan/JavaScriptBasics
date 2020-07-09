@@ -27,3 +27,6 @@ import {numCounter} from "./functionExporter.js";   //import etme yontemi 2. yol
  npm init -y   //bu komut yeni bir package.json icin kullaniliyor
 
 
+ 1-) we can export multiple named values function, obj, class, variable
+
+

@@ -8,4 +8,4 @@ module.exports = {
     },
 
     dob: "10.01.1980",
-};
+}
