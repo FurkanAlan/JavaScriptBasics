@@ -14,7 +14,7 @@ console.log("eger for loop icerinde var kullansaydik degiskeni global yani for l
 
 console.log("================================ eger for loop icerisindeki tanimlanan deger const olsaydi ===================================================")
 
-for (const i = 0; i < 8; i++) {
+for (const i = 0; i < 8; i++) { //ancak burasi sadece sanirim runtime hatasi veriyor
     console.log(i)
 }
 console.log(i)

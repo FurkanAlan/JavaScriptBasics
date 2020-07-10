@@ -1,0 +1,4 @@
+1-) The spread operator allows us to expand an expression where arguments or variables are expected
+2-) We could use it to concat multiple arrays, holds arguments to function in arrays or simple transform a string to an array
+
+3-) Concatenation of arrays ==> by using Spread Operator
