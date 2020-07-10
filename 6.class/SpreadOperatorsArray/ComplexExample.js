@@ -1,5 +1,5 @@
 console.log("================================= First way ==========================================")
-
+//https://gist.github.com/ArfatSalman/49f05cbeb05bb929ada4a3b386ec8aac#file-iterableobject-js
 // const myFavouriteAuthors = {
 //     allAuthors: {
 //         fiction: [
