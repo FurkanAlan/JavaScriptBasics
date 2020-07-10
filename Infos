@@ -30,3 +30,24 @@ import {numCounter} from "./functionExporter.js";   //import etme yontemi 2. yol
  1-) we can export multiple named values function, obj, class, variable
 
 
+
+
+Important Topics
+
+1-) Export Import;  normal export for commonjs module.export  and request if es6 must add "type": "module" in package.json
+2-) Arrow function  const hello = function () {                ========>   () => {}
+                        const es = "JavaScript & Java"
+                        return `Programming Languages ${es}`
+                    }
+
+                    ============>                     () =>
+                                                            {  const es = "JavaScript & Java"
+                                                             return `Programming Languages ${es}`
+                                                         }
+                    ============>
+
+3-) Spread function; for important, arrays [...]
+4-) Callback function or methods
+5-) Lexical; (` ${} `)  or (` ${this.} `)
+6-) var, let, const; const final keyword, use let in other situations
+7-) ==   =>  use ===,    !=    =>  use !==
